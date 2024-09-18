@@ -1,2 +1,0 @@
-def stringcheck(word):
-  pass
