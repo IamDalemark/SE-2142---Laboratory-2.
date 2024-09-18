@@ -7,7 +7,14 @@ class StringCheck:
       return True
     else:
       return False
-  
+    
+  def alphaCheck(self):
+    if self.word.isalpha():
+      return True
+    else:
+      return False
 
-test1 = StringCheck("ejid")
+test1 = StringCheck("ejid0")
 print(test1.alphaNumcheck())
+
+print(test1.alphaCheck())
